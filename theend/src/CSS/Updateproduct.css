@@ -1,0 +1,5 @@
+.update-product-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+}

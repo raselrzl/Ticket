@@ -1,0 +1,173 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url(./CSS/Navbar.css);
+
+@import url(./CSS/Cartpage.css);
+@import url(./CSS/Register.css);
+@import url(./CSS/Login.css);
+@import url(./CSS/Error.css);
+@import url(./CSS/Addnewproduct.css);
+@import url(./CSS/Productlist.css); */
+@import url(./CSS/Product.css);
+@import url(./CSS/Home.css);
+@import url(./CSS/Navbar.css);
+@import url(./CSS/Cartpage.css);
+@import url(./CSS/Adminpage.css);
+@import url(./CSS/Loading.css);
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.app-container{
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.icon-size{
+  font-size: 30px !important;
+  color: #E1EEFF;
+  margin: 20px 5px;
+  border-radius: 5px;
+}
+
+.icon-container{
+  position: absolute;
+  bottom: 10px;
+  align-self: center;
+  overflow: hidden;
+}
+.icon-size:focus,
+.icon-size:hover{
+  color:#289FED;
+  box-shadow: 2px 2px 0px 0px #289FED, 
+                  4px 4px 0px 0px #5FB8FF, 
+                  1px 1px 6px 13px rgba(0,0,0,0);
+}
+
+
+/*  
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(42, 17, 79) !important;
+  }
+} */
+
+/* login register form start */
+
+
+.container-form{
+  display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+  text-align: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 400px;
+  width: 250px;
+  padding: 25px;
+  margin-top: 60px;
+}
+.signup-link{
+  margin: 15px 0px 0px 0px;
+  font-size: .7rem;
+}
+.link-container{ 
+  display: flex;
+justify-content: space-between;
+align-items: flex-end;
+  padding: 20px 5px;
+}
+.link{
+  font-size: 13px;
+  cursor: pointer;
+  color: #000;
+  list-style: none;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+#input-email{
+  text-align: center;
+}
+
+/* login register form end */
+
+.home-button-container{
+
+  display: flex;
+  flex-direction: column;
+  top:60%;
+}
+
+.home-page-button{
+    cursor: pointer;
+     margin: 5px; 
+     color: #E1EEFF;    
+     height: 38px;
+     width: 160px;
+     border: none; 
+     border-radius: 5px;
+     background-color: #7c7879;
+     outline: none;
+     font-weight: 600;
+     font-size: 0.85em;
+     padding: 8px 18px 6px 18px;
+     box-shadow: 5px 5px 5px 0px #000000, 
+     inset 4px 4px 15px 0px #000000, 
+     1px 1px 6px 13px rgba(0,0,0,0);
+    
+}
+
+.home-page-button:focus,
+.home-page-button:hover{ 
+                 box-shadow: 2px 2px 0px 0px #289FED, 
+                 4px 4px 0px 0px #5FB8FF, 
+                 1px 1px 6px 13px rgba(0,0,0,0);
+}
+
+
+
+
+/* button for form */
+.form-button{
+  cursor: pointer;
+     align-self: center;
+     margin: 5px; 
+     color: #E1EEFF;    
+     height: 30px;
+     width: 120px;
+     border: none; 
+     border-radius: 5px;
+     background-color: #7c7879;
+     outline: none;
+     font-weight: 600;
+     font-size: 0.85em;
+     padding: 8px 18px 6px 18px;
+     box-shadow: 5px 5px 5px 0px #000000, 
+     inset 4px 4px 15px 0px #000000, 
+     1px 1px 6px 13px rgba(0,0,0,0);
+    
+}
+
+.form-button:focus,
+.form-button:hover{ 
+                 box-shadow: 2px 2px 0px 0px #289FED, 
+                 4px 4px 0px 0px #5FB8FF, 
+                 1px 1px 6px 13px rgba(0,0,0,0);
+}

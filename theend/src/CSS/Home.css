@@ -1,0 +1,43 @@
+/* .griv-view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.items{
+    gap: 10px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .card{
+    padding: 20px;
+    text-align: center;
+    margin: 30px !important;
+    height: 395px;
+    width: 290px !important;
+    border: none !important;
+    box-shadow:
+            
+  }
+
+
+ 
+  @media only screen and (max-width: 600px) {
+    .items {
+      gap: 3px 3px;
+        grid-template-columns: auto auto;
+    }
+    .card{
+        margin: 7px !important;
+        width: 175px !important;
+        height: 315px;
+    }
+  } */
+
+
+
+
+/*  .gr-code{
+     position: relative;
+     top:200px;
+ }
+  */

@@ -1,0 +1,32 @@
+.admin-pannel{
+    text-align: center;
+    background-color: #fff;
+    margin: 50px;
+    width: 70vw;
+}
+.title{
+    font-size: 35px;
+}
+.functions{
+    padding: 10px;
+    background-color: rgb(12, 12, 86);
+}
+.functions li{
+    list-style-type: none;
+    display: inline;
+}
+
+.functions li:hover,
+.functions li:focus,
+.functions li:active{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.functions li a{
+    color: blueviolet;
+    text-decoration: none;
+    padding: 20px;
+}

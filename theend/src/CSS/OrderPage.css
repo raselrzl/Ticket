@@ -1,0 +1,20 @@
+.order-page-container{
+    background-color: aliceblue;   
+    display: flex;
+    flex-direction: column;
+    margin: 40px 50px 80px 50px;
+    width: auto;
+    overflow-y: scroll; 
+    padding: 20px 30px;
+    
+}
+.order-page-container h4{
+    text-align: center;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+   
+}
+.order-list{
+    display: flex;
+    flex-direction: row;
+}

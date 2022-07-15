@@ -1,0 +1,113 @@
+  .product-cart{
+    background-color: rgb(228, 195, 195);
+    height: 300px;
+    width: 300px;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  .select-container{
+    display: flex;
+    margin-top: 200px;
+    padding: 0px 20px ; 
+    align-self: center;
+  }
+.input-box{
+  border: none !important;
+}
+
+.product-price{
+  position:absolute;
+  top:78%;
+  left:40%;
+}
+
+.ticket{
+  position: absolute;
+  color: #fff;
+  top:0;
+}
+.cart{
+  height: 190px;
+  width: 300px;
+  background-color: #3b0f1c;
+  align-self: center;
+}
+.logo{
+  height: 100px;
+  width: 300px;
+  background: url('../Images/deli-logo.png') no-repeat;
+  background-size: cover;
+  background-position: center;   
+  
+}
+
+
+
+.add-to-cart{ 
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+  color: #E1EEFF; 
+  cursor: pointer;   
+  height: 38px;
+  width: 160px;
+  border: none; 
+  border-radius: 5px;
+  background-color: #7c7879;
+  outline: none;
+  font-weight: 600;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  box-shadow: 5px 5px 5px 0px #000000, 
+  inset 4px 4px 15px 0px #000000, 
+  1px 1px 6px 13px rgba(0,0,0,0);
+ 
+}
+
+.add-to-cart:focus,
+.add-to-cart:hover{
+              box-shadow: 2px 2px 0px 0px #289FED, 
+              4px 4px 0px 0px #5FB8FF, 
+              1px 1px 6px 13px rgba(0,0,0,0);
+}
+
+
+
+
+  .product-img{
+    height: 130px !important;
+    width: 140px !important;
+  }
+  #modal-img{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    }
+
+
+    #add-to-cart{
+      margin-top: 50px;
+    }
+    @media only screen and (max-width: 600px) {
+      .product-name {
+        font-size: 15px;
+      }
+      .product-img{
+        height: 90px !important;
+        width: 90px !important;
+      }
+      .product-price{
+        margin: 2px !important;
+      }
+      .add-to-cart{
+        display: flex !important;
+        flex-direction: column !important;
+        align-self: flex-end !important;
+      }
+      .varient-quantity-title{
+        font-size: 14px;
+      }
+    }

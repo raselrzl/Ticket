@@ -1,0 +1,47 @@
+[33m8b6d1f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mfrontend[m[33m)[m HEAD@{0}: commit: Tickets
+[33mb20e87f[m HEAD@{1}: commit: changed some css
+[33m33f6a47[m HEAD@{2}: commit: responsive design
+[33m61bfd04[m HEAD@{3}: commit: register page css
+[33mc0eaf81[m HEAD@{4}: commit: login page responsive
+[33ma02a26b[m HEAD@{5}: commit: responsive card
+[33maca970d[m HEAD@{6}: commit: navbar fix
+[33m777fc41[m HEAD@{7}: commit: css added
+[33m808c94d[m HEAD@{8}: commit: console error fix
+[33me77c0f9[m HEAD@{9}: commit: user list done
+[33m1db1bef[m HEAD@{10}: commit: order delivered status
+[33ma8a226d[m HEAD@{11}: commit: delete products
+[33m0477c6f[m HEAD@{12}: commit: Edit product done
+[33md99de1f[m HEAD@{13}: commit: get product details from backend
+[33ma7f8190[m HEAD@{14}: commit: get product by id from database
+[33md2730bd[m HEAD@{15}: commit: get product id on url
+[33m67d222e[m HEAD@{16}: commit: add product to database
+[33m003d393[m HEAD@{17}: commit: add new product and product list page dessign
+[33madbb6a5[m HEAD@{18}: commit: admin table
+[33mc5c2120[m HEAD@{19}: commit: filter data
+[33m07ffbd3[m HEAD@{20}: commit: order page
+[33mbc8d42b[m HEAD@{21}: commit: front end logic for order placement
+[33m5d5cd7b[m HEAD@{22}: commit: stripe integration in frontend
+[33m93701ed[m HEAD@{23}: commit: condionally rendaring data
+[33mc129fad[m HEAD@{24}: commit: register and login link style
+[33mb1306a6[m HEAD@{25}: commit: user logout
+[33m88950f7[m HEAD@{26}: commit: success and login alert
+[33m9f684e0[m HEAD@{27}: commit: title change
+[33mfbb3c4e[m HEAD@{28}: commit: dropdown menu for login and log out
+[33mf80cd28[m HEAD@{29}: commit: user login information from local storage and redirect
+[33m85c8632[m HEAD@{30}: commit: user login
+[33mf8601c2[m HEAD@{31}: commit: user models
+[33m0603b8c[m HEAD@{32}: commit: user reducer and store
+[33m928b1ec[m HEAD@{33}: commit: created post request
+[33m729b901[m HEAD@{34}: commit: login and register form css edit
+[33mc4dae93[m HEAD@{35}: commit: login and register form design
+[33m4c872d0[m HEAD@{36}: commit: responsive cart page
+[33mfef9bd6[m HEAD@{37}: commit: set total amout
+[33m9a4a90d[m HEAD@{38}: commit: delete cart items
+[33m831b84a[m HEAD@{39}: commit: updated cart items
+[33m6d5c0eb[m HEAD@{40}: commit: Loading page added
+[33m5898229[m HEAD@{41}: commit: view cart data from local storage
+[33mdcbb2d8[m HEAD@{42}: commit: Created reducer,reduxstore and actions
+[33m4bbfdf5[m HEAD@{43}: commit: animation, grid fix
+[33m8f15443[m HEAD@{44}: commit: frontend setup completed
+[33mf31acd9[m HEAD@{45}: Branch: renamed refs/heads/master to refs/heads/main
+[33mf31acd9[m HEAD@{47}: commit (initial): first commit
